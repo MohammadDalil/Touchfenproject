@@ -2,3 +2,41 @@ body
 {
     font-family: IRANSans;
 }
+.container
+{
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+    height: 1000px;
+}
+#sideBar
+{
+    text-align: center;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 1rem;
+     height: 949px;
+    width: 336px; 
+}
+#about
+{
+    background-color: #ccc;
+    border-radius: 1rem;
+    margin-top: 7px;
+    height: 1114px;
+}
+.email
+{
+    font-size: 1rem;
+}
+h2::after
+{
+    content: "";
+    list-style: none;
+    border-bottom: thin;
+}
+#logo
+{
+    padding: 0.999rem !important;
+    background-color: #ccc !important;
+    border : none; 
+}
