@@ -1,42 +1,66 @@
-body
-{
-    font-family: IRANSans;
+body {
+  font-family: IRANSans;
+  direction: rtl;
+  background-color: var(--main-color);
 }
-.container
-{
-    background-color: #f4f4f4;
-    border-radius: 1rem;
-    height: 1000px;
+
+.h-100vh {
+  height: 100vh;
 }
-#sideBar
-{
-    text-align: center;
-    margin: 5px;
-    background-color: #ccc;
-    border-radius: 1rem;
-     height: 949px;
-    width: 336px; 
-}
-#about
-{
-    background-color: #ccc;
-    border-radius: 1rem;
-    margin-top: 7px;
-    height: 1114px;
-}
-.email
-{
+.rounded-10px {
+    border-radius: 10px;
+  }
+  
+  .rounded-top-10px {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .rounded-botton-10px {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .text-color-primary {
+    color: var(--text-color-primary) !important;
+  }
+  
+  .text-color-primary-second {
+    color: var(--text-color-primary-second) !important;
+  }
+  
+  .bg-color-light {
+    background-color: rgba(112, 112, 112, 0.35);
+  }
+  text-0\.25 {
+    font-size: 0.25rem;
+  }
+  .text-0\.5 {
+    font-size: 0.5rem;
+  }
+  .text-0\.75 {
+      font-size: 0.75rem;
+    }
+  .text-1 {
     font-size: 1rem;
-}
-h2::after
-{
-    content: "";
-    list-style: none;
-    border-bottom: thin;
-}
-#logo
-{
-    padding: 0.999rem !important;
-    background-color: #ccc !important;
-    border : none; 
+  }
+  .text-2 {
+    font-size: 2rem;
+  }
+  .text-3 {
+    font-size: 3rem;
+  }
+  .text-4 {
+    font-size: 4rem;
+  }
+  .text-5 {
+    font-size: 5rem;
+  }
+  
+  
+
+:root {
+  --main-color: #f5f5f5;
+  --text-color-primary: #707070;
+  --text-color-primary-second: #565656;
 }
